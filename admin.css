@@ -1,0 +1,125 @@
+/* Main Wrapper */
+.wc-pfo-license-wrap, 
+.wc-pfo-settings-wrap {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+/* License Box */
+.wc-pfo-license-box {
+    background: #fff;
+    border-radius: 4px;
+    padding: 25px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    margin-top: 20px;
+    border-left: 4px solid #3858e9;
+}
+
+.wc-pfo-license-box h2 {
+    margin-top: 0;
+    color: #3858e9;
+}
+
+/* License Field */
+.wc-pfo-license-field {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.wc-pfo-license-field label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.wc-pfo-license-field input[type="text"] {
+    width: 100%;
+    max-width: 500px;
+    padding: 8px 10px;
+}
+
+.wc-pfo-license-status {
+    position: absolute;
+    right: 10px;
+    top: 33px;
+    padding: 3px 8px;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.wc-pfo-license-status.valid {
+    background: #46b450;
+    color: white;
+}
+
+.wc-pfo-license-status.invalid {
+    background: #dc3232;
+    color: white;
+}
+
+/* Settings Box */
+.wc-pfo-settings-box {
+    background: #fff;
+    border-radius: 4px;
+    padding: 25px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    margin-top: 20px;
+    border-left: 4px solid #3858e9;
+}
+
+/* Form Elements */
+.wc-pfo-settings-box .form-table th {
+    width: 250px;
+    padding-left: 0;
+}
+
+.wc-pfo-settings-box .form-table td {
+    padding: 15px 10px;
+}
+
+.wc-pfo-settings-box .description {
+    color: #666;
+    font-style: italic;
+    margin-top: 5px;
+    display: block;
+}
+
+/* Checkbox Fields */
+.wc-pfo-settings-box input[type="checkbox"] {
+    margin-right: 8px;
+}
+
+/* Textarea */
+.wc-pfo-settings-box textarea {
+    width: 100%;
+    max-width: 500px;
+    min-height: 100px;
+    padding: 8px;
+}
+
+/* Number Input */
+.wc-pfo-settings-box input[type="number"] {
+    width: 80px;
+    padding: 5px;
+}
+
+/* Notices */
+.wc-pfo-license-notice {
+    padding: 15px;
+    border-left: 4px solid #dc3232;
+}
+
+.wc-pfo-license-notice a.button {
+    margin-left: 10px;
+}
+
+.wc-pfo-license-success {
+    padding: 15px;
+    border-left: 4px solid #46b450;
+}
+
+/* Menu Icon */
+.dashicons-shield-alt:before {
+    color: #3858e9;
+}
